@@ -1,0 +1,30 @@
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+.view-btn {
+  border: 1px solid #EBEDF9;
+  padding: 10px 20px;
+  border-radius: 30px;
+  outline: none;
+  background: transparent;
+}

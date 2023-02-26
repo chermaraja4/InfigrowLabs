@@ -1,0 +1,26 @@
+.small-card {
+    min-width: 290px;
+    min-height: 107px;
+    background: rgba(235, 237, 249, 0.6);
+    border-radius: 10px;
+    padding: 18px; 
+}
+
+.card-label {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #212121;
+}
+
+.cost {
+    margin-top: 10px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #29368E;
+}

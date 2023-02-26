@@ -1,0 +1,101 @@
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 100px;
+    z-index: 100;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    transition: left 300ms;
+
+
+}
+
+.header-content,
+.header-menu {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.menu-txt {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.header-content {
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+.header-content label:first-child span {
+    font-size: 1.3rem;
+}
+
+.header-content label {
+    cursor: pointer;
+}
+
+.header-menu {
+    justify-content: flex-end;
+    padding-top: .5rem;
+}
+
+.header-menu label,
+.header-menu .notify-icon {
+    margin-right: 2rem;
+    position: relative;
+}
+
+.header-menu label span,
+.notify-icon span:first-child {
+    font-size: 1.3rem;
+}
+
+.notify-icon span:last-child {
+    position: absolute;
+    background: var(--main-color);
+    height: 16px;
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    right: -5px;
+    top: -5px;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    color: #29368E;
+
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #EBEDF9;
+    border-radius: 50%;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+}
+@media only screen and (max-width: 768px) { 
+    header{
+      left: 0;
+    }
+  
+  }

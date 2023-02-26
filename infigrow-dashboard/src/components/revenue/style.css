@@ -1,0 +1,46 @@
+.profit {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+    grid-gap: 1rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.revenue-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.revenue-list {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.list-txt {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;   
+    color: #000000;
+}
+
+.list-total {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+    .profit {
+        grid-template-columns: 100%;
+    }
+}

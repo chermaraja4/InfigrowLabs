@@ -1,0 +1,93 @@
+.page-header {
+    padding: 1.3rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left-side {
+    display: flex;
+}
+
+.place {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.date {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 5px;
+    color: #595959;
+}
+
+.second-Session {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.play-icon {
+    background: #EBEDF9;
+    border: 1px solid #EBEDF9;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-icon svg {
+    width: 15px;
+    height: 15px;
+    color: #212121;
+}
+
+.devide {
+    border-right: 1px solid black;
+    margin: 0px 20px;
+
+}
+
+.button {
+    height: 20px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #29368E;
+    border: 1px solid #EBEDF9 !important;
+    border-radius: 7px;
+    padding: 18px 25px;
+    display: flex;
+    align-items: center;
+    background: transparent;
+
+}
+
+.button:hover {
+    background: #29368E;
+    color: #F2F2F2;
+}
+
+.open-model {
+    position: absolute;
+    left: 25%;
+}
+
+
+@media only screen and (max-width: 668px) {
+    .page-header {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

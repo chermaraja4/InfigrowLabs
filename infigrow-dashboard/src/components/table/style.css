@@ -1,0 +1,44 @@
+.Debitors {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Debitors .label {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #212121;
+}
+
+.Debitors .label {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #212121;
+}
+
+.Debitors-wrap {
+    max-height: 200px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.Debitors-wrap::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+.Debitors-wrap::-webkit-scrollbar-thumb {
+    background: #212121;
+    overflow: auto;
+    border: 5px solid transparent;
+    background-clip: padding-box;
+    border-radius: 20px;
+    transition: height 0.2s ease-in-out;
+    padding: 5px;
+}

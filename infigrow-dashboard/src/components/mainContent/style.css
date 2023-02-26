@@ -1,0 +1,76 @@
+.page-content {
+    padding: 1.3rem 1rem;
+}
+
+
+.containter {
+    display: grid;
+    gap: 1.5rem;
+    grid-auto-columns: 2fr 1fr;
+    grid-template-areas:
+        'content1 content3'
+        'content2 content3';
+}
+
+.item:nth-child(1) {
+    grid-area: content1;
+}
+
+.item:nth-child(2) {
+    grid-area: content2;
+}
+
+.item:nth-child(3) {
+    grid-area: content3;
+}
+
+.table-container {
+    margin-top: 20px;
+    display: grid;
+    gap: 1.5rem;
+    grid-auto-columns: 1fr 1fr;
+    grid-template-areas:
+        'TopDebitors Creditors'
+
+}
+
+.TopDebitors {
+    grid-area: TopDebitors;
+    /* width: 100%; */
+}
+
+.Creditors {
+    grid-area: Creditors;
+    /* width: 100%; */
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .analytics {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .containter {
+        grid-template-areas:
+            'content1'
+            'content2 '
+            'content3';
+    }
+
+    .table-container {       
+        grid-template-areas:
+            'TopDebitors'
+            'Creditors'
+
+    }
+}
